@@ -1,0 +1,13 @@
+.content {
+    display: block;
+    min-height: calc(100vh - 60px - 40px - 70px);
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+
+    .product {
+        display: inline-block;
+    }
+}
