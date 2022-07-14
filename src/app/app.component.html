@@ -1,4 +1,5 @@
-<app-header></app-header>
+<app-header (show)="toogleBasket()"></app-header>
+<app-basket *ngIf="show"></app-basket>
 <div class="content">
   <div class="product" *ngFor="let p of products">
     <app-product [product]="p"></app-product>

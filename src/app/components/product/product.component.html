@@ -2,4 +2,4 @@
 <p>{{ product?.description }}</p>
 <span>{{ product?.price | currency:'EUR' }}</span>
 <p>{{ product?.brand }}</p>
-<button>Añadir a la cesta</button>
+<button (click)="add()">Añadir a la cesta</button>

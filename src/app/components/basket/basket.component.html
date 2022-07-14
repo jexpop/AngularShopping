@@ -1,0 +1,9 @@
+<h1>En la cesta</h1>
+<br>
+<div class="content">
+    <div class="item" *ngFor="let product of basket">
+        <span> Producto {{product.name}} </span>
+        <span> Precio {{product.price}} </span>
+        <span> Cantidad {{product.quantity}} </span>
+    </div>
+</div>

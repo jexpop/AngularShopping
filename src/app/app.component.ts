@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from './interfaces/product.interface';
+import { IProduct, IBasket } from './interfaces';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +8,15 @@ import { IProduct } from './interfaces/product.interface';
 })
 export class AppComponent implements OnInit {
   title = 'Angular Shopping';
-  products: IProduct[] =[];
+  products!: IProduct[];
+  basket!: IBasket[];
+  show!: boolean;
 
-  constructor(){}
+  constructor(){
+    localStorage.setItem("basket", JSON.stringify(this.basket));
+    this.show = false;
+   }
+
   ngOnInit(){
     this.products = [
       { id: 1, name: 'p1', description: 'bla bla bla', price: 2, brand: 'danonia', img: 'img'},
@@ -20,6 +26,10 @@ export class AppComponent implements OnInit {
       { id: 5, name: 'p5', description: 'bla bla bla', price: 9, brand: 'DeLaCasada', img: 'img'},    
       { id: 6, name: 'p6', description: 'bla bla bla', price: 12, brand: 'Bolacao', img: 'img'}    
     ];    
+  }
+
+  toogleBasket(){
+    this.show = !this.show;
   }
 
 }
