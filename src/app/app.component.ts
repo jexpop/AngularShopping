@@ -1,22 +1,14 @@
-import { Component } from '@angular/core';
-
-interface IProduct {
-  id: number,
-  name: string,
-  description: string,
-  price: number,
-  brand: string,
-  img: string
-}
+import { Component, OnInit } from '@angular/core';
+import { IProduct } from './interfaces/product.interface';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Angular Shopping';
-  products: IProduct[] =[]
+  products: IProduct[] =[];
 
   constructor(){}
   ngOnInit(){

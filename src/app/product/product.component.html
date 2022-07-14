@@ -1,5 +1,5 @@
-<h1>Producto</h1>
-<p>Descripción</p>
-<span>Precio</span>
-<p>Marca</p>
+<h1>{{ product?.name }}</h1>
+<p>{{ product?.description }}</p>
+<span>{{ product?.price | currency:'EUR' }}</span>
+<p>{{ product?.brand }}</p>
 <button>Añadir a la cesta</button>
