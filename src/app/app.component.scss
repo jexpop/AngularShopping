@@ -1,3 +1,8 @@
+:host {
+    display: block;
+    position: relative;
+}
+
 .content {
     display: block;
     min-height: calc(100vh - 60px - 40px - 70px);
@@ -9,4 +14,15 @@
     .product {
         display: inline-block;
     }
+}
+
+.basket {
+    position: absolute;
+    left: 950px;
+    z-index: 100;
+    background-color: rgb(169, 245, 169);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    color: grey;
 }

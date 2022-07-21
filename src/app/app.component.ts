@@ -9,13 +9,18 @@ import { IProduct, IBasket } from './interfaces';
 export class AppComponent implements OnInit {
   title = 'Angular Shopping';
   products!: IProduct[];
-  basket!: IBasket[];
+  basket: IBasket[] = [];
   show!: boolean;
 
   constructor(){
-    localStorage.setItem("basket", JSON.stringify(this.basket));
+    
+    if (!localStorage.getItem('basket')) {
+      localStorage.setItem("basket", JSON.stringify(this.basket));
+    }
+
     this.show = false;
-   }
+
+  }
 
   ngOnInit(){
     this.products = [
