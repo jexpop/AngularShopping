@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
 import { FrontComponent } from './front.component';
 import { FrontMainView } from './views/front-main/front-main.view';
 import { FrontDetailView } from './views/front-detail/front-detail.view';
 import { FrontRoutingModule } from './front-rounting.module';
+import { FrontCommonsModule } from './commons/front-commons.module';
 
 
 @NgModule({
@@ -14,7 +16,8 @@ import { FrontRoutingModule } from './front-rounting.module';
   ],
   imports: [
     CommonModule,
-    FrontRoutingModule
+    FrontRoutingModule,
+    FrontCommonsModule
   ]
 })
 export class FrontModule { }
