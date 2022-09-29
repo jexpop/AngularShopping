@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Silla",
+      "description": "Una silla",
+      "price": 29,  
+      "brand": "Sillex",
+      "images": ["https://images.unsplash.com/photo-1592078615290-033ee584e267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"]
+    },
+    {
+      "id": 2,
+      "name": "Sofá",
+      "description": "Un sofá",
+      "price": 295,
+      "brand": "Sillex",
+      "images": ["https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"]
+    },
+    {
+      "id": 3,
+      "name": "Lámpara",
+      "description": "lámpara",
+      "price": 19,
+      "brand": "Lu",
+      "images": ["https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"]
+    },
+    {
+      "id": 4,
+      "name": "Sillón",
+      "description": "Sillón antiguo",
+      "price": 129,
+      "brand": "Sillex",
+      "images": ["https://images.unsplash.com/photo-1582901109033-8aad6fed8168?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"]
+    },
+    {
+      "id": 5,
+      "name": "Libros",
+      "description": "Pila de libros",
+      "price": 39,
+      "brand": "Sol",
+      "images": ["https://images.unsplash.com/photo-1595123550384-b81222e23cf9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"]
+    },
+    {
+      "id": 6,
+      "name": "Reloj",
+      "description": "Reloj antiguo",
+      "price": 499,
+      "brand": "Ancients",
+      "images": ["https://images.unsplash.com/photo-1605687595239-ed2e660ef063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"]
+    },
+    {
+      "id": 7,
+      "name": "Mesa",
+      "description": "Mesa redonda",
+      "price": 279,
+      "brand": "Sillex",
+      "images": ["https://images.unsplash.com/photo-1577926103605-f426874bee28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"]
+    }
+  ]
+}
